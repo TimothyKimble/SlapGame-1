@@ -1,1 +1,17 @@
 /*Only use this file if you want to override bootstrap or create your own style*/
+
+body {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  background-color: #2ba92bad;
+}
+
+main{
+  flex-grow: 1;
+}
+
+.maxheight {
+  height: 15rem;
+  width: 100rem;
+}
